@@ -80,6 +80,7 @@
         width: 100%;
         font-size: 5vw;
         height: 100vh;
+        margin-top: 20%;
     }
 
     .backButtonAbout{
@@ -109,5 +110,8 @@
         font-weight: 500;
     }
     
-
+    .backButtonAboutText:hover {
+        color: #11468F ; 
+        transform: rotate(180deg);
+    }
 }

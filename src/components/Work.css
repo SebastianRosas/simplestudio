@@ -48,7 +48,9 @@
         justify-content: center;
         background: white;
         color: #11468F;
-        font-size: 17vw;
+        font-size: 12vw;
+        padding-left: 3vw;
+        padding-right: 3vw;
         text-align: center;
     }
 
