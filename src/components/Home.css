@@ -160,6 +160,10 @@
    display: none;
 }
 
+.bottomButtomText:hover{
+    color: white;
+    
+}
 
 
  }
