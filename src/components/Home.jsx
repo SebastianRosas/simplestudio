@@ -26,9 +26,6 @@ const Home = () => {
                          Simple Studio
                       </div>
                  </div>
-                 <div className='topSecondContainer'>
-                 
-                 </div>
              </div>
             <div className='leftBottomSide'>
                  <div className='bottomFirstContainer'>
