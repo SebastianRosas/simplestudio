@@ -1,0 +1,55 @@
+.workContainer{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    color: #11468F;
+    font-size: 5vw;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.backContainer{
+    position: absolute;
+    top: 0;
+    left: 1vw;
+}
+
+.backText{
+    text-decoration: none;
+    color: pink;
+    font-size: 3vw;
+}
+
+.backText:hover{
+    color: red;
+}
+
+@media (max-width: 700px) {
+
+    .backContainer{
+        left: 2vw;
+    }
+
+    .backText{
+        text-decoration: none;
+        color: pink;
+        font-size: 10vw;
+    }
+
+    .workContainer{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: white;
+        color: #11468F;
+        font-size: 17vw;
+        text-align: center;
+    }
+
+}

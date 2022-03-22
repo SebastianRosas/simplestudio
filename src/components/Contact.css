@@ -1,0 +1,94 @@
+.contactContainer{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background: pink;
+}
+
+.contact{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 3vw;
+}
+
+.contactEmail{
+    cursor: pointer;
+}
+
+.contactEmail:hover{
+    color: yellow;
+}
+
+.backButtonContact{
+    position: absolute;
+    left: 1vw;
+    font-size: 3vw;
+    color: yellow;
+    cursor: pointer;
+    top: 2vh;
+}
+
+.backButtonContact:hover{
+    color: white;
+}
+
+.contactInstagram{
+    position: absolute;
+    right: 1vw;
+    font-size: 2vw;
+    bottom: 2vh;
+    
+}
+
+.contactInstagram a{
+    text-decoration: none;
+    color: yellow;
+}
+
+.contactInstagram a:hover{
+    color: white;
+}
+
+.simboloContact{
+    font-size: 1vw;
+}
+
+.backButtonContactText{
+    text-decoration: none;
+    color: yellow;
+}
+
+.backButtonContactText:hover{
+    color: white;
+}
+
+@media (max-width: 700px) {
+
+    .contact{
+        font-size: 8vw;
+    }
+
+.backButtonContact{
+    top: 1vh;
+    font-size: 6vw;
+}
+
+.backButtonContactText{
+    font-size: 6vw;
+    padding-left: 1vw;
+}
+
+.contactInstagram{
+    font-size: 6vw;
+    right: 2vw;
+}
+
+.simboloContact{
+    font-size: 3vw;
+}
+
+}

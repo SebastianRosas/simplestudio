@@ -1,0 +1,113 @@
+.aboutContainer{
+    width: 100%;
+    height: auto;
+    color: #11468F;
+    display: flex;
+}
+
+.aboutLeftContainer{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    background: yellow;
+}
+
+.aboutRightContainer{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    font-size: 1.8vw;
+    text-align: left;
+}
+
+.aboutTextContainer{
+    padding: 2vw;
+}
+
+.aboutLeftContainer img{
+    width: 100%;
+    height: 100vh;
+}
+
+.simbolsAbout{
+    color: red;
+}
+
+.backButtonAbout{
+        position: absolute;
+        left: 0.5vw;
+        top: 2.9vh;
+        font-size: 14vw;
+        z-index: 1;
+        cursor: pointer;
+}   
+
+.backButtonAboutText {
+    text-decoration: none;
+    color: pink;
+}
+
+.backButtonAboutText:hover {
+    color: white; 
+    transform: rotate(180deg);
+}
+
+.aboutTitle{
+    font-size: 5vw;
+    color: pink;
+    font-weight: 500;
+}
+
+@media (max-width: 700px) {
+
+    .aboutLeftContainer{
+        background: white;
+    }
+
+    .aboutContainer{
+        flex-direction: column; 
+    }
+
+    .aboutLeftContainer{
+        width: 100%;
+        height: 60vh;
+    }
+    
+    .aboutRightContainer{
+        width: 100%;
+        font-size: 5vw;
+        height: 100vh;
+    }
+
+    .backButtonAbout{
+        position: fixed;
+        top: 2.5vw;
+        font-size: 30vw;
+        color: pink;
+        z-index: 1;
+        cursor: pointer;
+    }
+
+    .aboutTextContainer{
+        z-index: 2;
+        margin-top: 5vh;
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+
+    .aboutLeftContainer img{
+        width: 100%;
+        height: 60vh;
+    }
+
+    .aboutTitle{
+        font-size: 13vw;
+        color: red;
+        font-weight: 500;
+    }
+    
+
+}
