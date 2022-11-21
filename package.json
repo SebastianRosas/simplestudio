@@ -1,6 +1,6 @@
 {
   "homepage": "https://sebastianrosas.github.io/simplestudio/",
-  "name": "simple-studio",
+  "name": "simplestudio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
